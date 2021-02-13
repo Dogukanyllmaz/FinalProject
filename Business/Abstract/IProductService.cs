@@ -10,6 +10,8 @@ namespace Business.Abstract
     public interface IProductService
     {
 
+        //RESTFUL --> HTTP --> 
+
         IDataResult<List<Product>> GetAll();
         IDataResult<List<Product>> GetAllByCategoryId(int id);
         IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max);
@@ -19,3 +21,5 @@ namespace Business.Abstract
 
     }
 }
+
+
