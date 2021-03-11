@@ -7,18 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace WepAPI.Controllers
+namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        //Loosely coupled -- !!Çok önemli sakın unutma
+        //Loosely coupled
         //naming convention
-        //C# ve Java'ya özgü 
-        //IoC Container --> Inversion of Control
+        //IoC Container -- Inversion of Control
         IProductService _productService;
 
         public ProductsController(IProductService productService)
@@ -29,18 +29,17 @@ namespace WepAPI.Controllers
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
-            //Dependency chain -- (Bağlı kalmamalısın!!)
-            //IProductService productService = new ProductManager(new EfProductDal());
-            //var result = productService.GetAll();
-            //return result.Data;
-            //Swagger --> hazır dökümantasyon sağlanmalı
+            //Swagger
+            //Dependency chain --
+
+            Thread.Sleep(5000);
+
             var result = _productService.GetAll();
             if (result.Success)
             {
-                return Ok(result.Data); //Getlerde 200 ile çalışılır --> Ok()
+                return Ok(result);
             }
-
-            return BadRequest(result.Message);
+            return BadRequest(result);
 
         }
 
@@ -52,6 +51,7 @@ namespace WepAPI.Controllers
             {
                 return Ok(result);
             }
+
             return BadRequest(result);
         }
 
@@ -64,8 +64,6 @@ namespace WepAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result);
-
-
         }
 
 

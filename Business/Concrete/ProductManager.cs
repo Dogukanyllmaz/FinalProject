@@ -14,6 +14,7 @@ using System.Linq;
 using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Transaction;
+using DataAccess.Concrete.EntityFramework;
 
 namespace Business.Concrete
 {
@@ -115,10 +116,6 @@ namespace Business.Concrete
             return null;
         }
 
-    }
-        
-
-
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
         {
             var products = _productDal.GetAll(p => p.CategoryId == categoryId);
@@ -149,6 +146,5 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-        
     }
 }
