@@ -16,7 +16,7 @@
 
 ## Description
 
-- This project is a Product-Management project. It was developed thanks to the education of Engin Demiroğ.
+- This project is a Products-Management project. It was developed thanks to the education of Engin Demiroğ.
 - It is written in accordance with SOLID principles. It is designed in the form of a multi-tier enterprise architecture, consisting of Entities, DataAccess, Business, Core and WebAPI layers. Jwt (Login and Register) and Middleware (error detection) are integrated into the system. 
 - Northwind is used as database.
 - Angular-cli is used for Front-end. Go to [Front-end.](https://github.com/Dogukanyllmaz/FinalProject---Frontend)
