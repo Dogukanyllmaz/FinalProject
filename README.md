@@ -16,7 +16,7 @@
 
 ## Description
 
-- [Go to Front-end codes](https://github.com/Dogukanyllmaz/FinalProject---Frontend)
+- Go to Front-end --> [FinalProject---Frontend](https://github.com/Dogukanyllmaz/FinalProject---Frontend)
 
 #### Technologies
 
