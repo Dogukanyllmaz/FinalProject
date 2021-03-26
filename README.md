@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/Dogukanyllmaz/FinalProject)](https://github.com/Dogukanyllmaz/FinalProject/blob/main/LICENSEE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Dogukanyllmaz/FinalProject?color=yellow)
 <h1 align="center">Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR)</h1>
 
