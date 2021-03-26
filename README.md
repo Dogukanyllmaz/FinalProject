@@ -9,7 +9,7 @@
 ### Table of Contents
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [License](#license)
+- [License](https://github.com/Dogukanyllmaz/FinalProject/blob/master/LICENSE)
 - [Author Info](#author-info)
 
 ---
