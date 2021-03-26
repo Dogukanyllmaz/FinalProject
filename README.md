@@ -1,3 +1,55 @@
-## FinalProject
+[![GitHub license](https://img.shields.io/github/license/Dogukanyllmaz/FinalProject)](https://github.com/Dogukanyllmaz/FinalProject/blob/main/LICENSEE)
+![GitHub Repo stars](https://img.shields.io/github/stars/Dogukanyllmaz/FinalProject?color=yellow)
+<h1 align="center">Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR)</h1>
 
-Engin Demiroğ Yazılım Geliştirici Yetiştirme Kampı
+<p align="center">
+    <img width="100%" src="./src/Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR).jpg">
+</p>
+
+### Table of Contents
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [License](#license)
+- [Author Info](#author-info)
+
+---
+
+## Description
+
+
+#### Technologies
+
+- [Entity Framework](https://reactjs.org/)
+- [FluentValidation](https://www.apollographql.com/docs/react/get-started/)
+- [Autofac](https://autofaccn.readthedocs.io/en/latest/getting-started/index.html#)
+
+---
+
+## How To Use
+
+```bash
+# Clone the repository
+$ git clone https://github.com/Dogukanyllmaz/FinalProject
+
+# Go to file
+$ cd FinalProject.git
+
+# Install dependencies
+$ dotnet restore
+```
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Doğukan Yılmaz
+
+---
+
+## Author Info
+
+- 💻 [Linkedin](https://www.linkedin.com/in/hüseyin-doğukan-yılmaz-75a1531ab/)
+
+- 🎫 [Email](mailto:dogu_codem@hotmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+
