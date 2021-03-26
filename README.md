@@ -3,7 +3,7 @@
 <h1 align="center">Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR)</h1>
 
 <p align="center">
-    <img width="100%" src="./src/Yazılım Geliştirici Yetiştirme Kampı (C# + ANGULAR).jpg">
+    <img width="100%" src="./src/kamp.jpg">
 </p>
 
 ### Table of Contents
