@@ -44,7 +44,6 @@ $ dotnet restore
 MIT License
 
 Copyright (c) 2021 Doğukan Yılmaz
-
 ---
 
 ## Author Info
